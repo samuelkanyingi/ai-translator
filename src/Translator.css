@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: "Arial", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Translator Container */
+  .translator-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .translator-container h2 {
+    margin-bottom: 15px;
+    color: #00d4ff;
+  }
+  
+  /* Labels */
+  .translator-container label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  /* Textarea Input */
+  .input-textarea {
+    width: 90%;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+  }
+  
+  /* Language Detection */
+  .language-detection {
+    color: #00ff00;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  /* Dropdown */
+  .language-select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #555;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  /* Button */
+  .translate-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #00d4ff;
+    color: #222;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .translate-btn:hover {
+    background-color: #009ec3;
+  }
+  
+  /* Translation Output */
+  .translation-result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffea00;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: #ff4c4c;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 400px) {
+    .translator-container {
+      width: 90%;
+    }
+  }
+  
