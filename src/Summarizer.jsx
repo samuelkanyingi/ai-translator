@@ -8,9 +8,13 @@ const Summarizer = () => {
 
   const handleSummarize = async () => {
     // Replace YOUR_HUGGING_FACE_API_KEY with your actual API key.
-    const apiKey = process.env.REACT_APP_HUGGING_FACE_API_KEY;
-    //const model = "facebook/bart-large-cnn"; // Change to your preferred model if needed
-    const model = "Falconsai/text_summarization";
+    //const apiKey = process.env.REACT_APP_HUGGING_FACE_API_KEY;
+    const apiKey = import.meta.env.VITE_HUGGINGFACE_API_KEY;
+    console.log("API Key:", import.meta.env.VITE_HUGGINGFACE_API_KEY);
+    
+    const model = "facebook/bart-large-cnn"; // Change to your preferred model if needed
+    //const model = "Falconsai/text_summarization";
+
    
    
     
